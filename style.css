@@ -6,6 +6,7 @@
   .page{
     display: flex;
     flex-wrap: wrap;
+
   }
 
   .section{
@@ -15,7 +16,7 @@
     justify-content: center;
     align-items: center;
   }
-
+  /*sezione header*/
   .header{
     background-color: #050402;
     display:flex;
@@ -39,3 +40,43 @@
   .link a:hover{
     color:#909090;
   }
+
+  /*fine header*/
+
+  /*content*/
+
+  .content{
+    height:3000px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about{
+    width:100%;
+    height:900px;
+  }
+
+  .about h1{
+    font-size: 50px;
+    text-align: center
+  }
+
+  .about p{
+    font-size: 30px;
+    text-align: justify;
+
+
+  }
+
+/*fine content*/
+
+/*footer*/
+
+.footer{
+  background-color: #050402;
+}
+
+.introduction img{
+  width: 100%;
+}
