@@ -3,6 +3,8 @@
 
     <head>
       <link rel="stylesheet" href="style.css">
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+      <meta charset="utf-8"/>
       <title>Luca Alice</title>
      </head>
 
@@ -23,7 +25,20 @@
         <div class="section content">
 
           <div class="intro">
-            Immagine intro
+            <picture>
+              <source media="(max-width:449px)"
+                srcset="images/intro-mobile.jpg"/>
+
+                <source media="(max-width:960px) "
+                srcset="images/intro-small.jpg"/>
+
+                <source media="(min-width:961px)"
+                srcset="images/intro-big.jpg"/>
+
+
+                <img src="images/intro-small.jpg"/>
+
+        </picture>
           </div>
 
           <div class="about">
@@ -95,13 +110,13 @@
 
           <a name="contact"></a>
 
-          <h1>Follow:</h1>
-
           <div class="social">
 
-              <a href="https://www.facebook.com/luca.alice.714/" target="_blank"><img src="images/facebook.png"></a>
+            <div class="face"> <a href="https://www.facebook.com/luca.alice.714/" target="_blank">
+              <img src="images/facebook.png"></a></div>
 
-              <a href="https://www.instagram.com/baluardo23/"target="_blank"><img src="images/instagram.png"></a>
+            <div class="insta"><a href="https://www.instagram.com/baluardo23/"target="_blank">
+              <img  src="images/instagram.png"></a></div>
 
           </div>
 
