@@ -5,6 +5,8 @@
       <link rel="stylesheet" href="style.css">
       <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
       <meta charset="utf-8"/>
+      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <script src="https://kit.fontawesome.com/b80676b0c4.js" crossorigin="anonymous"></script>
       <title>Luca Alice</title>
      </head>
 
@@ -14,18 +16,21 @@
 
         <div class=" section header">
 
-          <div class="link"> <a href="#about">ABOUT</a></div>
+          <div class="menu link">
 
-          <div class="link"> <a href="#skils">SKILS</a></div>
-
-          <div class="link"> <a href="#contact">CONTACT</a></div>
+            <ul>
+              <li><a href="#about" >ABOUT</a></li>
+              <li><a href="#skils">SKILS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
 
         </div>
 
         <div class="section content">
 
           <div class="intro">
-            <picture>
+            <picture >
               <source media="(max-width:449px)"
                 srcset="images/intro-mobile.jpg"/>
 
@@ -36,7 +41,7 @@
                 srcset="images/intro-big.jpg"/>
 
 
-                <img src="images/intro-small.jpg"/>
+                <img class="animate__rotateIn" src="images/intro-small.jpg"/>
 
         </picture>
           </div>
@@ -44,24 +49,40 @@
           <div class="about">
             <a name="about"></a>
 
-            <h1 class="title">About Me</h1>
+            <div class="description">
 
-            <p>Ciao, mi chiamo Luca e ho 27 anni.
+            <h2 class="title">About Me</h2>
+
+            <p>Ciao, mi chiamo Luca Alice.
               Sono nato e cresciuto a Savona, una modesta città  ligure.
               L'informatica e la tecnologia sono la mia passione, direi il mio stile di vita.
               Nel 2013 mi sono diplomato come Ragioniere Perito / Commerciale Programmatore all'Istituto d'Istruzione Superiore
                Boselli/Alberti, con un punteggio di 76/100.</p>
 
-            <p>  Nel periodo scolastico ho potuto apprendere le basi di HTML e CSS,
-               nonchè di SQL per la creazione di piccoli ed elementari database.
-               Uscito dalla scuola non mi sentivo adeguatamene istruito e sopratutto motivato per poter incominciare
-               a pensare di avere una cariera in questo ambito. Cosi finiti gli studi, preso dall'indecisione sul dafarsi per il futuro
-               incominciai a lavorare in ambiti che con i miei interessi avevano poco a che fare.<br><br>
-               Tuttavia non ho mai abbandonato le mie passioni, continuando a casa, nel mio tempo libero, ad esercitarmi e
-               studiare per riuscire a far si che la mia passione diventasse un vero e proprio lavoro.<br>
-               Ho deciso quindi di rimettermi in gioco e fare tutto ciò che serve per realizzare questo sogno.</p>
 
           </div>
+
+          <div class="bio">
+            <h2 class="title">BIO</h2>
+
+            <div><i class="fas fa-calendar-alt"></i>Age</div>
+
+            <div class="info">28</div>
+
+
+            <div><i class="far fa-envelope"></i>Email:</div>
+
+            <div class="link info">
+            <a href="mailto:luca.alice23@gmail.com">luca.alice23@gmail.com </a>
+            </div>
+
+            <div><i class="fas fa-phone"></i>Phone:</div>
+
+            <div class="info"> +39 3923967689</div>
+
+          </div>
+
+        </div>
 
           <div class="skils">
 
@@ -118,15 +139,10 @@
             <div class="insta"><a href="https://www.instagram.com/baluardo23/"target="_blank">
               <img  src="images/instagram.png"></a></div>
 
-          </div>
-
-          <div class="contact">
-
-            <p class="link"> <a href="mailto:luca.alice23@gmail.com">luca.alice23@gmail.com </a>  </p>
-
-            <p class="phone"> What's App : +39 3923967689 </p>
+            <div class="in"> <img src="images/indeed.png"></div>
 
           </div>
+
 
           <p> © 2021 LUCA ALICE</p>
 
